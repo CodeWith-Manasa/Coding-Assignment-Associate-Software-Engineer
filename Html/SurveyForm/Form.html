@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Form.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Survey Form</h2>
+            <form action=""  id="FormData">
+                <table >
+                    <tr>
+                        <td><label for="firstName">First Name</label></td>
+                        <td><input type="text" id="firstName" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="lastName">Last Name</label></td>
+                        <td><input type="text" id="lastName" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="Male" required> Male
+                            <input type="radio" id="female" name="gender" value="Female" required> Female
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="dob">Date of birth</label></td>
+                        <td><input type="date" id="dob" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="phone">Phone Number</label></td>
+                        <td><input type="tel" id="phone" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email id</label></td>
+                        <td><input type="email" id="email" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="profession">Profession</label></td>
+                        <td><input type="text" id="profession" required></td>
+                    </tr>
+
+                    
+
+                    <tr>
+                        <td><label for="country">Country</label></td>
+                        <td>
+                            <select name="country" id="country" required>
+                                <option value="">Select</option>
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="UK">UK</option>
+                                <option value="Canada">India</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" class="btn btn-success" id="submit" >Submit</button>
+                        </td>
+                        <td> <button type="reset" class="btn btn-secondary" id="reset">Reset</button>
+                        </td>
+                       
+
+                    </tr>
+                </table>
+                <br>
+           </form>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup">
+       
+        <h2>Form Data</h2>
+        <div id="formValues"></div>
+        <button type="reset" class="btn btn-secondary"  onclick="closepopup()">Close</button>
+    </div>
+   
+</body>
+
+</html>
