@@ -91,6 +91,59 @@ This JavaScript code demonstrates how to sort an array of numbers in descending 
 5. The sorted array is now stored back in the `numbers` variable.
 
 6. Finally, the program uses `console.log` to display the sorted array.
+# HTML
+## Calculator Application
+
+This simple calculator application was created using HTML, CSS, and JavaScript. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+## Basic Calculator
+
+- The basic calculator can perform addition, subtraction, multiplication, and division.
+- To perform calculations, click the respective buttons for numbers and operations.
+- You can clear the display by clicking 'C' and backspace with the '←' button.
+- To evaluate an expression, click '='.
+- If there's an error in the expression, it will display "Error."
+
+## Floating Calculator
+
+In addition to the basic calculator, the application also features a floating calculator that can be accessed by clicking on the '+' symbol.
+
+- Click on the '+' symbol in the corner of the page to open the floating calculator.
+- The floating calculator has the same functionality as the basic calculator.
+- You can perform arithmetic operations, clear the display, and evaluate expressions.
+- Click outside the calculator to close it.
+
+The floating calculator provides a convenient way to perform calculations without leaving the page.
+
+# Survey Form
+
+This is a simple survey form created using HTML, CSS, and JavaScript. The form contains various input fields, including First Name, Last Name, Date of Birth, Country (dropdown), Gender (radio buttons), Profession, Email, and Mobile Number. Two buttons, Submit and Reset, allow users to submit the form and reset the form fields.
+
+## Form Fields
+
+1. **First Name**: A text input field for the first name.
+2. **Last Name**: A text input field for the last name.
+3. **Gender**: Radio buttons for selecting gender (Male or Female).
+4. **Date of Birth**: A date picker for entering the date of birth.
+5. **Phone Number**: A text input field for the phone number.
+6. **Email**: A text input field for the email address.
+7. **Profession**: A text input field for entering the profession.
+8. **Country**: A dropdown menu with country options (USA, Canada, UK, India).
+
+## Functionality
+
+- The **Submit** button checks for required fields and performs basic validation.
+- If all fields are filled correctly, a popup appears displaying the user's input.
+- The user can close the popup, which also triggers a form reset to clear all fields.
+- The **Reset** button resets the form fields to their initial state.
+
+## Folder Structure
+
+- `index.html`: Contains the HTML structure for the survey form and popup.
+- `form.js`: Handles form validation and popup functionality using JavaScript.
+- `Form.css`: Styles the survey form and popup using CSS.
+
+
 
 
 
