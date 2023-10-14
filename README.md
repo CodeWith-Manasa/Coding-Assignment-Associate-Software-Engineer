@@ -139,7 +139,7 @@ This is a simple survey form created using HTML, CSS, and JavaScript. The form c
 
 ## Folder Structure
 
-- `index.html`: Contains the HTML structure for the survey form and popup.
+- `Form.html`: Contains the HTML structure for the survey form and popup.
 - `form.js`: Handles form validation and popup functionality using JavaScript.
 - `Form.css`: Styles the survey form and popup using CSS.
 
